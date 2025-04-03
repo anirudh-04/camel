@@ -128,6 +128,7 @@ public class GoogleBigQuerySQLProducerWithParamersTest extends GoogleBigQuerySQL
         assertEquals(StandardSQLTypeName.NUMERIC, namedParameters.get("data").getType(),
                 "BigDecimal parameter is detected as NUMERIC");
     }
+    // test
 
     @Test
     public void parametersAutomaticTypeConversionFallback() throws Exception {
